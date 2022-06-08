@@ -1,0 +1,41 @@
+.tile {
+    background-color: rgb(27, 62, 119);
+    font-size: xx-large;
+    color: white;
+}
+
+.newColor {
+    background-color: rgb(38, 231, 48);
+    font-size: xx-large;
+}
+
+.buttons {
+    width: 510px;
+    background: gray;
+    overflow-y: auto;
+}
+
+.start {
+    background: gray;
+    width: 100px;
+    height: 50px;
+    font-size: xx-large;
+}
+
+.buttons>button {
+    /*https://stackoverflow.com/questions/20849221/position-buttons-in-container-as-a-grid-using-css */
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 1px;
+}
+
+#winMessage {
+    margin-left: 125px;
+    font-size: xx-large;
+}
+
+#timerColon,
+.timer {
+    font-size: xx-large;
+}
